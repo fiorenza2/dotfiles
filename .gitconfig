@@ -1,0 +1,7 @@
+[user]
+	email = t-phball@microsoft.com
+	name = Philip Ball
+[credential]
+	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+[core]
+	autocrlf = input
