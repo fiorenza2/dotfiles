@@ -12,7 +12,7 @@ end
 set -gx PATH $HOME/anaconda3/bin $PATH
 set -x KUBECONFIG /mnt/c/kubeconfig.json
 set -x DOCKER_HOST tcp://0.0.0.0:2375
-set -x DISPLAY :0
+set -x DISPLAY localhost:10
 set -x MALMO_XSD_PATH ~/malmo-master/malmo-master/Schemas
 set -x JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/ 
 set -gx theme_color_scheme gruvbox 
