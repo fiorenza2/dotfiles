@@ -9,9 +9,6 @@ if test -d $HOME/bin
     set -gx PATH $HOME/bin $PATH
 end
 
-thefuck --alias | source
-
-
 set -gx PATH $HOME/anaconda3/bin $PATH
 set -x KUBECONFIG /mnt/c/kubeconfig.json
 set -x DOCKER_HOST tcp://0.0.0.0:2375
