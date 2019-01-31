@@ -1,5 +1,11 @@
 # Dotfiles Repo
 
+Before anything else, install:
+* `fish`
+* Oh My Fish!
+* `bobthefish`
+
+
 | dotfile  | symlink  |
 |   ---    |    ---   |
 | `tmux.config` | `/etc/tmux.config`  |
